@@ -8,6 +8,35 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:779835791655:android:c04ae911bcf7e9e65db102",
+        "android_client_info": {
+          "package_name": "com.eliamtechnologies.escreening"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "779835791655-rlug4hc23mugcui3betmimkj80asnqa9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqEK-vXe87BxFv5wA76vtxYMpFhdV-owQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "779835791655-rlug4hc23mugcui3betmimkj80asnqa9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:779835791655:android:60b4ec7ec63182585db102",
         "android_client_info": {
           "package_name": "net.smallacademy.authenticatorapp"
