@@ -83,7 +83,7 @@ public class ResultsActivity extends AppCompatActivity {
 
         if (requestCode == 12 && resultCode == RESULT_OK && data != null && data.getData() != null) {
             buttonUploadResults.setEnabled(true);
-            text_results.setText(data.getDataString().substring(data.getDataString().lastIndexOf("/" + 1)));
+            //text_results.setText(data.getDataString().substring(data.getDataString().lastIndexOf("/" + 1)));
             buttonUploadResults.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

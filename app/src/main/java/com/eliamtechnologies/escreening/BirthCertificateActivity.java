@@ -71,7 +71,7 @@ public class BirthCertificateActivity extends AppCompatActivity {
 
         if (requestCode == 12 && resultCode == RESULT_OK && data != null && data.getData() != null) {
             buttonUploadBirthCertificate.setEnabled(true);
-            text_BirthCertificate.setText(data.getDataString().substring(data.getDataString().lastIndexOf("/" + 1)));
+            //text_BirthCertificate.setText(data.getDataString().substring(data.getDataString().lastIndexOf("/" + 1)));
             buttonUploadBirthCertificate.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

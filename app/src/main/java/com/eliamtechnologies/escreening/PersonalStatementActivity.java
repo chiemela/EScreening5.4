@@ -82,7 +82,7 @@ public class PersonalStatementActivity extends AppCompatActivity {
 
         if (requestCode == 12 && resultCode == RESULT_OK && data != null && data.getData() != null) {
             buttonUploadPersonalStatement.setEnabled(true);
-            text_personal_statement.setText(data.getDataString().substring(data.getDataString().lastIndexOf("/" + 1)));
+            //text_personal_statement.setText(data.getDataString().substring(data.getDataString().lastIndexOf("/" + 1)));
             buttonUploadPersonalStatement.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

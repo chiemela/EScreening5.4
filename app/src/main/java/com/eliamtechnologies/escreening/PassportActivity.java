@@ -82,7 +82,7 @@ public class PassportActivity extends AppCompatActivity {
 
         if (requestCode == 12 && resultCode == RESULT_OK && data != null && data.getData() != null) {
             buttonUploadPassport.setEnabled(true);
-            text_passport.setText(data.getDataString().substring(data.getDataString().lastIndexOf("/" + 1)));
+            //text_passport.setText(data.getDataString().substring(data.getDataString().lastIndexOf("/" + 1)));
             buttonUploadPassport.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

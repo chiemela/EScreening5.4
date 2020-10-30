@@ -83,7 +83,7 @@ public class IELTSActivity extends AppCompatActivity {
 
         if (requestCode == 12 && resultCode == RESULT_OK && data != null && data.getData() != null) {
             buttonUploadIELTS.setEnabled(true);
-            text_ielts.setText(data.getDataString().substring(data.getDataString().lastIndexOf("/" + 1)));
+            //text_ielts.setText(data.getDataString().substring(data.getDataString().lastIndexOf("/" + 1)));
             buttonUploadIELTS.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {

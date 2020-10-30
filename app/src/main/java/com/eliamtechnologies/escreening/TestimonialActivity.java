@@ -83,7 +83,7 @@ public class TestimonialActivity extends AppCompatActivity {
 
         if (requestCode == 12 && resultCode == RESULT_OK && data != null && data.getData() != null) {
             buttonUploadTestimonial.setEnabled(true);
-            text_testimonial.setText(data.getDataString().substring(data.getDataString().lastIndexOf("/" + 1)));
+            //text_testimonial.setText(data.getDataString().substring(data.getDataString().lastIndexOf("/" + 1)));
             buttonUploadTestimonial.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
