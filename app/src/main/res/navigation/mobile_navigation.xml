@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="net.smallacademy.authenticatorapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="net.smallacademy.authenticatorapp.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="net.smallacademy.authenticatorapp.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_passport"
+        android:name="net.smallacademy.authenticatorapp.ui.passport.PassportFragment"
+        android:label="@string/menu_passport"
+        tools:layout="@layout/fragment_passport" />
+
+    <fragment
+        android:id="@+id/nav_transcripts"
+        android:name="net.smallacademy.authenticatorapp.ui.transcripts.TranscriptsFragment"
+        android:label="@string/menu_transcripts"
+        tools:layout="@layout/fragment_transcripts" />
+
+    <fragment
+        android:id="@+id/nav_results"
+        android:name="net.smallacademy.authenticatorapp.ui.results.ResultsFragment"
+        android:label="@string/menu_results"
+        tools:layout="@layout/fragment_results" />
+
+    <fragment
+        android:id="@+id/nav_testimonial"
+        android:name="net.smallacademy.authenticatorapp.ui.testimonial.TestimonialFragment"
+        android:label="@string/menu_testimonial"
+        tools:layout="@layout/fragment_testimonial" />
+
+    <fragment
+        android:id="@+id/nav_valid_ID"
+        android:name="net.smallacademy.authenticatorapp.ui.validID.ValidIDFragment"
+        android:label="@string/menu_valid_ID"
+        tools:layout="@layout/fragment_valid_id" />
+
+    <fragment
+        android:id="@+id/nav_birth_certificate"
+        android:name="net.smallacademy.authenticatorapp.ui.birthcertificate.BirthCertificateFragment"
+        android:label="@string/menu_Birth_Certificate"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_ielts"
+        android:name="net.smallacademy.authenticatorapp.ui.ielts.IELTSFragment"
+        android:label="@string/menu_IELTS"
+        tools:layout="@layout/fragment_ielts" />
+
+    <fragment
+        android:id="@+id/nav_personal_statement"
+        android:name="net.smallacademy.authenticatorapp.ui.personalstatement.PersonalStatementFragment"
+        android:label="@string/menu_Personal_Statement"
+        tools:layout="@layout/fragment_personal_statement" />
+
+    <fragment
+        android:id="@+id/nav_cv"
+        android:name="net.smallacademy.authenticatorapp.ui.cv.CVFragment"
+        android:label="@string/menu_CV"
+        tools:layout="@layout/fragment_cv" />
+
+</navigation>

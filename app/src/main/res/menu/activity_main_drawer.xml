@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_passport"
+            android:icon="@drawable/ic_baseline_picture_as_pdf_24"
+            android:title="@string/string_passport" />
+        <item
+            android:id="@+id/nav_transcripts"
+            android:icon="@drawable/ic_baseline_picture_as_pdf_24"
+            android:title="@string/string_transcripts" />
+        <item
+            android:id="@+id/nav_results"
+            android:icon="@drawable/ic_baseline_picture_as_pdf_24"
+            android:title="@string/string_results" />
+        <item
+            android:id="@+id/nav_testimonial"
+            android:icon="@drawable/ic_baseline_picture_as_pdf_24"
+            android:title="@string/string_testmonial" />
+        <item
+            android:id="@+id/nav_valid_ID"
+            android:icon="@drawable/ic_baseline_picture_as_pdf_24"
+            android:title="@string/string_valid_id" />
+        <item
+            android:id="@+id/nav_birth_certificate"
+            android:icon="@drawable/ic_baseline_picture_as_pdf_24"
+            android:title="@string/string_birth_certificate" />
+        <item
+            android:id="@+id/nav_ielts"
+            android:icon="@drawable/ic_baseline_picture_as_pdf_24"
+            android:title="@string/string_ielts" />
+        <item
+            android:id="@+id/nav_personal_statement"
+            android:icon="@drawable/ic_baseline_picture_as_pdf_24"
+            android:title="@string/string_personal_statement" />
+        <item
+            android:id="@+id/nav_cv"
+            android:icon="@drawable/ic_baseline_picture_as_pdf_24"
+            android:title="@string/string_c_v" />
+    </group>
+</menu>

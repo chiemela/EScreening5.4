@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "779835791655",
+    "firebase_url": "https://mobilestudent-36524.firebaseio.com",
+    "project_id": "mobilestudent-36524",
+    "storage_bucket": "mobilestudent-36524.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779835791655:android:60b4ec7ec63182585db102",
+        "android_client_info": {
+          "package_name": "net.smallacademy.authenticatorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "779835791655-bljdl8uq1nt2apkd1pehr53su3j57rt4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.smallacademy.authenticatorapp",
+            "certificate_hash": "3c7c4dde24ab64bed4bf6be82e3042449d433821"
+          }
+        },
+        {
+          "client_id": "779835791655-rlug4hc23mugcui3betmimkj80asnqa9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqEK-vXe87BxFv5wA76vtxYMpFhdV-owQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "779835791655-rlug4hc23mugcui3betmimkj80asnqa9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
