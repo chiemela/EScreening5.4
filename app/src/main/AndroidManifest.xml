@@ -12,10 +12,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Department"></activity>
+        <activity android:name=".About" />
+        <activity android:name=".Dashboard" />
         <activity
             android:name=".StartScreeningActivity"
             android:label="@string/title_activity_start_screening"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".ValidIDActivity" />
         <activity android:name=".TranscriptsActivity" />
         <activity android:name=".TestimonialActivity" />

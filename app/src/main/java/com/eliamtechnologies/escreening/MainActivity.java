@@ -228,7 +228,7 @@ public class MainActivity extends AppCompatActivity {
         startScreeningBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent startScreeningIntent = new Intent(v.getContext(), StartScreeningActivity.class);
+                Intent startScreeningIntent = new Intent(v.getContext(), Dashboard.class);
                 startActivity(startScreeningIntent);
             }
         });
